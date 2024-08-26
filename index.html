@@ -14,6 +14,7 @@
             <div class="text-xl font-bold text-green-600">Rinterio</div>
             <nav>
                 <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-green-600">Home</a></li>
                     <li><a href="#services" class="hover:text-green-600">Services</a></li>
                     <li><a href="#portfolio" class="hover:text-green-600">Portfolio</a></li>
                     <li><a href="#blog" class="hover:text-green-600">Blog</a></li>
@@ -56,7 +57,7 @@
         </div>
     </section>
 
-    <section class="py-16">
+    <section class="py-16 bg-gray-100">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-3xl font-bold mb-8">Our Works Process</h2>
             <p class="mt-4 text-gray-600">The barn house capitalizes on the blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
@@ -86,19 +87,40 @@
         </div>
     </section>
 
-    <section id="portfolio" class="bg-gray-100 py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8">Our Latest Portfolio</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-8 bg-white shadow rounded-lg">
-                    <img src="assets/img1.png" alt="Project 1" class="mb-4 rounded-lg">
-                    <h3 class="text-2xl font-semibold">Commercial</h3>
+    <section class="py-16">
+        <div class="text-center mb-12">
+            <button class="bg-green-100 text-green-600 py-2 px-4 rounded-full text-sm">Explore our Latest works</button>
+            <h2 class="text-4xl font-bold mt-4">Our Latest Portfolio</h2>
+            <p class="text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img1.png" alt="Commercial" class="w-full">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">Commercial</h3>
+                    <p class="text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <a href="#" class="text-green-500 mt-4 inline-block font-medium">View Details ➔</a>
                 </div>
-                <div class="p-8 bg-white shadow rounded-lg">
-                    <img src="assets/img4.png" alt="Project 2" class="mb-4 rounded-lg">
-                    <h3 class="text-2xl font-semibold">Commercial</h3>
-                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img2.png" alt="Commercial" class="w-full">
                
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img3.png" alt="Commercial" class="w-full">
+               
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img4.png" alt="Commercial" class="w-full">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">Commercial</h3>
+                    <p class="text-gray-500 mt-2">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <a href="#" class="text-green-500 mt-4 inline-block font-medium">View Details ➔</a>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="assets/img5.png" alt="Commercial" class="w-full">
+                
             </div>
         </div>
     </section>
@@ -125,7 +147,43 @@
             </div>
         </div>
     </section>
-
+    <section class="py-16 bg-gray-100">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold">What Our Clients Say</h2>
+            <p class="text-gray-500 mt-2">Our clients love the work we do and the spaces we create for them.</p>
+        </div>
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center mb-4">
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold">John Doe</h4>
+                        <p class="text-sm text-gray-500">CEO, Company A</p>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Rinterio transformed our office into a modern, functional space that we love to work in every day. The team's attention to detail is unmatched."</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center mb-4">
+                    <div>
+                        <h4 class="text-lg font-semibold">Jane Smith</h4>
+                        <p class="text-sm text-gray-500">Homeowner</p>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Our new home is everything we dreamed of, thanks to the Rinterio team. They understood our vision and made it a reality."</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center mb-4">
+                    <div>
+                        <h4 class="text-lg font-semibold">Michael Lee</h4>
+                        <p class="text-sm text-gray-500">Entrepreneur</p>
+                    </div>
+                </div>
+                <p class="text-gray-600">"The commercial space designed by Rinterio has greatly enhanced our business image. We regularly receive compliments from our clients."</p>
+            </div>
+        </div>
+    </section>
+    
     <section id="contact" class="bg-gray-100 py-16">
         <div style="background-image:url(assets/bg.jpg);" class="container mx-auto px-4 text-center">
             
@@ -143,10 +201,17 @@
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-white py-8">
+    <footer class="bg-black text-white py-8">
         <div class="container mx-auto px-4 text-center">
             <p class="text-xl font-bold">Rinterio</p>
             <p class="mt-4">The barn house capitalizes on the blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <ul class="flex justify-between items-center">
+                <li><a href="#home" class="hover:text-green-600">Home</a></li>
+                <li><a href="#services" class="hover:text-green-600">Services</a></li>
+                <li><a href="#portfolio" class="hover:text-green-600">Portfolio</a></li>
+                <li><a href="#blog" class="hover:text-green-600">Blog</a></li>
+                <li><a href="#contact" class="hover:text-green-600">Contact</a></li>
+            </ul>
             <button class="mt-8 btn btn-primary">Book Consult</button>
         </div>
     </footer>
